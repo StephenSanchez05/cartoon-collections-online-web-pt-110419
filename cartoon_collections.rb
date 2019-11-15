@@ -1,6 +1,9 @@
 def roll_call_dwarves(dwarves)# code an argument here
-  dwarves.each do |name|
-    puts name
+   i = 0
+  while i < dwarves.length
+  yield(dwarves[i])
+  puts dwarves
+    i = i + 1 
   end
   end
 
