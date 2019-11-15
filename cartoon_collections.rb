@@ -1,8 +1,7 @@
 def roll_call_dwarves(dwarves)# code an argument here
-   i = 0
-  while i < dwarves.length
-  yield(collection[i])
-    i = i + 1 
+  dwarves.each do |name|
+    puts name
+  end
   end
 
 def summon_captain_planet# code an argument here
