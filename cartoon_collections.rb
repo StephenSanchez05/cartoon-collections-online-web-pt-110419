@@ -7,7 +7,7 @@ end
 
 
 def summon_captain_planet(call)
-  call.collect {|element| element +"!"
+  call.collect {|element| element +"!"}
 end
 end
 
