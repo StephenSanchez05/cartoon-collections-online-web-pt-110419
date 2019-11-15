@@ -1,7 +1,7 @@
 
 def roll_call_dwarves(dwarves)# code an argument here
-dwarves.eachdo |name, index|
-  puts "#{name[index]}"
+dwarves.each do |name|
+  puts "#{name}"
   end
 end
 
