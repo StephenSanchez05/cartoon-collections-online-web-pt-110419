@@ -12,7 +12,8 @@ end
 
 
 def long_planeteer_calls(words)
-  if words.length > 4
+  new_array << words
+  if new_array.length > 4
     long = true
   else
     long = false
