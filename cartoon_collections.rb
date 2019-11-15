@@ -6,8 +6,8 @@ dwarves.each_with_index do |name, index|
 end
 
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(call)
+  call.collect {|element| element +"!"
 end
 
 def long_planeteer_calls# code an argument here
