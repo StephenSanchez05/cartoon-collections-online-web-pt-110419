@@ -20,3 +20,4 @@ def find_the_cheese(food)
   food.detect do |potential|
   cheese_types.include?(potential)
 end
+end
